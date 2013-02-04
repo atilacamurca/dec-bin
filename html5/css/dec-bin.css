@@ -1,0 +1,15 @@
+div#console {
+   background-color: black;
+   color: #8AE234;
+   padding: 15px;
+   -webkit-border-radius: 6px;
+      -moz-border-radius: 6px;
+        border-radius: 6px;
+   min-height: 280px;
+}
+
+ul#out li {
+   font-size: 18px;
+   font-weight: bold;
+   font-family: monospace;
+}
