@@ -18,7 +18,7 @@ usado o sistema de numeração binário, o qual possui apenas os valores 0 e 1.
 ### Representação Numérica
 
 Dado um número $n$ na base $\beta$, isto é,
-$n = (a_j \cdot a_{j-1} \dots a_2 \cdot a_1 \cdot a_0)_\beta$, sendo
+$n = (a_j \, a_{j-1} \dots a_2 \, a_1 \, a_0)_\beta$, sendo
 $0 \le a_k \le \beta-1$ com $k = 0, \dots, j$ podemos representá-lo na forma polinomial:
 
 \begin{equation}
@@ -67,7 +67,7 @@ fazer a conversão para decimal usando a fórmula diretamente, pois a representa
 
 ### Conversão decimal para binário
 
-Considere o número $(42)_{10}$ e $(a_j \cdot a_{j-1} \dots a_1 \cdot a_0)_2$ sua representação
+Considere o número $(42)_{10}$ e $(a_j \, a_{j-1} \dots a_1 \, a_0)_2$ sua representação
 binária. Pelo processo inverso temos:
 
 \begin{eqnarray}
