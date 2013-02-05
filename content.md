@@ -19,7 +19,7 @@ usado o sistema de numeração binário, o qual possui apenas os valores 0 e 1.
 
 Dado um número $n$ na base $\beta$, isto é,
 $n = (a_j \cdot a_{j-1} \dots a_2 \cdot a_1 \cdot a_0)_\beta$, sendo
-$0 \le a_k \le \beta-1$ com $k = 1, \dots, j$ podemos representá-lo na forma polinomial:
+$0 \le a_k \le \beta-1$ com $k = 0, \dots, j$ podemos representá-lo na forma polinomial:
 
 \begin{equation}
 n = a_j \beta^j + a_{j-1} \beta^{j-1} + \dots + a_2 \beta^2 + a_1 \beta^1 + a_0 \beta^0
@@ -83,7 +83,7 @@ Temos o número $(0010\, 1010)_2$.
 
 ### Conversão decimal para binário
 
-Podemos a partir desse algorítimo podemos criar ferramentas que facilitam a conversão. Por
+Podemos a partir desse algorítimo, criar ferramentas que facilitam a conversão. Por
 exemplo criar uma tabela do tipo:
 
  128    64     32     16      8      4      2      1
